@@ -1,0 +1,57 @@
+.header {
+  height: 80px;
+  border-bottom: 1px solid hsla(0, 0%, 84%, 1);
+  nav {
+    padding: 1rem;
+  }
+  &_logo {
+    font-weight: 300;
+    font-size: $fs-800;
+  }
+  &__grey {
+    color: $color-grey;
+    font-weight: 800;
+    font-size: $fs-800;
+  }
+  &__orange {
+    color: $color-orange;
+    font-weight: 800;
+    font-size: $fs-800;
+  }
+}
+.icon-hamburger {
+  width: 28px;
+  height: 20px;
+}
+
+button {
+  color: #fff;
+  background-color: $color-orange;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  border-radius: 5px;
+  padding: 1px 1px;
+  font-weight: $fw-regular;
+  font-size: $fs-400;
+  line-height: 1.81rem;
+  box-shadow: 0px 4px 4px 0px hsla(0, 0%, 0%, 0.25);
+  width: 131px;
+  height: 47px;
+}
+
+.nav-login {
+  cursor: pointer;
+  font-weight: $fw-regular;
+  font-size: $fs-400;
+  color: $color-orange;
+  padding: 1rem;
+}
+
+.breadcrumbs {
+  &__lists {
+    display: inline-flex;
+    list-style: none;
+    padding: 1rem auto;
+  }
+}

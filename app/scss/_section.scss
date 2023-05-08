@@ -1,0 +1,26 @@
+.bg-color-section-primary {
+  background: $color-blue;
+}
+
+.fruits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 20px;
+}
+
+.fruits {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+.fruit-items {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 122px;
+  height: 109px;
+  padding: 20px;
+  color: white;
+  font-weight: 100;
+  border: 1px solid hsla(0, 0%, 87%, 1);
+}
